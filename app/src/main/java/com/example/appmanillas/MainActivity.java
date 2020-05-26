@@ -3,6 +3,7 @@ package com.example.appmanillas;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Adapter;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
@@ -26,5 +27,11 @@ public class MainActivity extends AppCompatActivity {
         adapter = new ArrayAdapter<>(this,android.R.layout.simple_spinner_item,material);
         combo_material.setAdapter(adapter);
 
+    }
+
+    public void calcular(View v){
+        int sel_material;
+        sel_material = combo_material.getSelectedItemPosition();
+        
     }
 }
