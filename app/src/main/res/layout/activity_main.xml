@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:text="TU MANILLA"
+        android:text="@string/titulo"
         android:textSize="24sp"
         android:textStyle="bold" />
 
@@ -31,14 +31,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/calcular" />
+            android:text="@string/boton_calcular" />
 
         <Button
             android:id="@+id/btnLimpiar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/limpiar" />
+            android:text="@string/boton_limpiar" />
 
     </LinearLayout>
 

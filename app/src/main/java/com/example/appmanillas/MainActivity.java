@@ -23,7 +23,8 @@ public class MainActivity extends AppCompatActivity {
 
         combo_material = findViewById(R.id.cmbMaterial);
         material = getResources().getStringArray(R.array.material);
-
+        adapter = new ArrayAdapter<>(this,android.R.layout.simple_spinner_item,material);
+        combo_material.setAdapter(adapter);
 
     }
 }
