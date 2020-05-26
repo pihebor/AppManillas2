@@ -1,4 +1,40 @@
 <resources>
     <string name="app_name">AppManillas</string>
     <string name="titulo">TU MANILLA</string>
+
+
+    <string name="opcion_material_cuero">Cuero</string>
+    <string name="opcion_material_cuerda">Cuerda</string>
+
+    <string name="opcion_dije_martillo">Martillo</string>
+    <string name="opcion_dije_ancla">Ancla</string>
+
+    <string name="opcion_tipo_dije_oro">Oro</string>
+    <string name="opcion_tipo_dije_bano_oro">Baño de Oro</string>
+    <string name="opcion_tipo_dije_oro_rosado">Oro Rosado</string>
+    <string name="opcion_tipo_dije_plata">Plata</string>
+    <string name="opcion_tipo_dije_niquel">Niquel</string>
+
+    <string-array name="material">
+        <item>@string/opcion_material_cuero</item>
+        <item>@string/opcion_material_cuerda</item>
+    </string-array>
+
+    <string-array name="dije">
+        <item>@string/opcion_dije_martillo</item>
+        <item>@string/opcion_dije_ancla</item>
+    </string-array>
+
+    <string-array name="tipo_dije">
+        <item>@string/opcion_tipo_dije_oro</item>
+        <item>@string/opcion_tipo_dije_bano_oro</item>
+        <item>@string/opcion_tipo_dije_oro_rosado</item>
+        <item>@string/opcion_tipo_dije_plata</item>
+        <item>@string/opcion_tipo_dije_niquel</item>
+    </string-array>
+
+    <string name="precio">Precio</string>
+
+    <string name="boton_calcular">Calcular</string>
+    <string name="boton_limpiar">Limpiar</string>
 </resources>
