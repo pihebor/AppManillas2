@@ -15,6 +15,9 @@
     <string name="opcion_tipo_dije_plata">Plata</string>
     <string name="opcion_tipo_dije_niquel">Niquel</string>
 
+    <string name="moneda_dolar">Dolares</string>
+    <string name="moneda_peso">Pesos Colombianos</string>
+
     <string-array name="material">
         <item>@string/opcion_material_cuero</item>
         <item>@string/opcion_material_cuerda</item>
@@ -31,6 +34,11 @@
         <item>@string/opcion_tipo_dije_oro_rosado</item>
         <item>@string/opcion_tipo_dije_plata</item>
         <item>@string/opcion_tipo_dije_niquel</item>
+    </string-array>
+
+    <string-array name="moneda">
+        <item>@string/moneda_dolar</item>
+        <item>@string/moneda_peso</item>
     </string-array>
 
     <string name="precio">Precio</string>

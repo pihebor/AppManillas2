@@ -18,11 +18,14 @@ public class MainActivity extends AppCompatActivity {
     private ArrayAdapter<String> adapter;
     private ArrayAdapter<String> adapter1;
     private ArrayAdapter<String> adapter2;
+    public double trm;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        resultado = findViewById(R.id.lblPrecio);
 
         combo_material = findViewById(R.id.cmbMaterial);
         material = getResources().getStringArray(R.array.material);
@@ -45,9 +48,38 @@ public class MainActivity extends AppCompatActivity {
         int sel_material;
         int sel_dije;
         int sel_tipo_dije;
+        double precio;
+        trm=3200;
+
         sel_material = combo_material.getSelectedItemPosition();
         sel_dije = combo_dije.getSelectedItemPosition();
         sel_tipo_dije = combo_tipo_dije.getSelectedItemPosition();
-        
+
+        if (sel_material==0 && sel_dije==0 && sel_tipo_dije==0) {
+            precio = 100; resultado.setText("" + precio);
+        } else if (sel_material==0 && sel_dije==0 && sel_tipo_dije==1){
+            precio=80; resultado.setText("" + precio);
+        } else if (sel_material==0 && sel_dije==0 && sel_tipo_dije==2){
+            precio=70; resultado.setText("" + precio);
+        }else if (sel_material==0 && sel_dije==1 && sel_tipo_dije==0){
+            precio=120; resultado.setText("" + precio);
+        }else if (sel_material==0 && sel_dije==1 && sel_tipo_dije==1){
+            precio=100; resultado.setText("" + precio);
+        }else if (sel_material==0 && sel_dije==1 && sel_tipo_dije==2){
+            precio=90; resultado.setText("" + precio);
+        } else if (sel_material==1 && sel_dije==0 && sel_tipo_dije==0) {
+            precio = 90; resultado.setText("" + precio);
+        } else if (sel_material==1 && sel_dije==0 && sel_tipo_dije==1){
+            precio=70; resultado.setText("" + precio);
+        } else if (sel_material==1 && sel_dije==0 && sel_tipo_dije==2){
+            precio=50; resultado.setText("" + precio);
+        }else if (sel_material==1 && sel_dije==1 && sel_tipo_dije==0){
+            precio=110; resultado.setText("" + precio);
+        }else if (sel_material==1 && sel_dije==1 && sel_tipo_dije==1){
+            precio=90; resultado.setText("" + precio);
+        }else if (sel_material==1 && sel_dije==1 && sel_tipo_dije==2){
+            precio=80; resultado.setText("" + precio);
+        }
+
     }
 }

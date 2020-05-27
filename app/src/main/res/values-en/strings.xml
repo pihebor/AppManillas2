@@ -14,4 +14,6 @@
     <string name="opcion_tipo_dije_oro_rosado">Pink Gold</string>
     <string name="opcion_tipo_dije_plata">Silver</string>
     <string name="opcion_tipo_dije_niquel">Nickel</string>
+    <string name="moneda_dolar">Dollar</string>
+    <string name="moneda_peso">Pesos Colombianos</string>
 </resources>
