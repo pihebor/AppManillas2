@@ -10,7 +10,6 @@
     <string name="opcion_dije_ancla">Ancla</string>
 
     <string name="opcion_tipo_dije_oro">Oro</string>
-    <string name="opcion_tipo_dije_bano_oro">Baño de Oro</string>
     <string name="opcion_tipo_dije_oro_rosado">Oro Rosado</string>
     <string name="opcion_tipo_dije_plata">Plata</string>
     <string name="opcion_tipo_dije_niquel">Niquel</string>
@@ -30,7 +29,6 @@
 
     <string-array name="tipo_dije">
         <item>@string/opcion_tipo_dije_oro</item>
-        <item>@string/opcion_tipo_dije_bano_oro</item>
         <item>@string/opcion_tipo_dije_oro_rosado</item>
         <item>@string/opcion_tipo_dije_plata</item>
         <item>@string/opcion_tipo_dije_niquel</item>
@@ -41,7 +39,7 @@
         <item>@string/moneda_peso</item>
     </string-array>
 
-    <string name="precio">Precio</string>
+    <string name="precio"></string>
 
     <string name="boton_calcular">Calcular</string>
     <string name="boton_limpiar">Limpiar</string>

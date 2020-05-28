@@ -55,31 +55,38 @@ public class MainActivity extends AppCompatActivity {
         sel_dije = combo_dije.getSelectedItemPosition();
         sel_tipo_dije = combo_tipo_dije.getSelectedItemPosition();
 
-        if (sel_material==0 && sel_dije==0 && sel_tipo_dije==0) {
+        if (sel_material==0 && sel_dije==0 && (sel_tipo_dije==0 || sel_tipo_dije==1)) {
             precio = 100; resultado.setText("" + precio);
-        } else if (sel_material==0 && sel_dije==0 && sel_tipo_dije==1){
-            precio=80; resultado.setText("" + precio);
         } else if (sel_material==0 && sel_dije==0 && sel_tipo_dije==2){
+            precio=80; resultado.setText("" + precio);
+        } else if (sel_material==0 && sel_dije==0 && sel_tipo_dije==3){
             precio=70; resultado.setText("" + precio);
-        }else if (sel_material==0 && sel_dije==1 && sel_tipo_dije==0){
+        }else if (sel_material==0 && sel_dije==1 && (sel_tipo_dije==0 || sel_tipo_dije==1)){
             precio=120; resultado.setText("" + precio);
-        }else if (sel_material==0 && sel_dije==1 && sel_tipo_dije==1){
-            precio=100; resultado.setText("" + precio);
         }else if (sel_material==0 && sel_dije==1 && sel_tipo_dije==2){
+            precio=100; resultado.setText("" + precio);
+        }else if (sel_material==0 && sel_dije==1 && sel_tipo_dije==3){
             precio=90; resultado.setText("" + precio);
-        } else if (sel_material==1 && sel_dije==0 && sel_tipo_dije==0) {
+        } else if (sel_material==1 && sel_dije==0 && (sel_tipo_dije==0 || sel_tipo_dije==1)) {
             precio = 90; resultado.setText("" + precio);
-        } else if (sel_material==1 && sel_dije==0 && sel_tipo_dije==1){
-            precio=70; resultado.setText("" + precio);
         } else if (sel_material==1 && sel_dije==0 && sel_tipo_dije==2){
+            precio=70; resultado.setText("" + precio);
+        } else if (sel_material==1 && sel_dije==0 && sel_tipo_dije==3){
             precio=50; resultado.setText("" + precio);
-        }else if (sel_material==1 && sel_dije==1 && sel_tipo_dije==0){
+        }else if (sel_material==1 && sel_dije==1 && (sel_tipo_dije==0 || sel_tipo_dije==1)){
             precio=110; resultado.setText("" + precio);
-        }else if (sel_material==1 && sel_dije==1 && sel_tipo_dije==1){
-            precio=90; resultado.setText("" + precio);
         }else if (sel_material==1 && sel_dije==1 && sel_tipo_dije==2){
+            precio=90; resultado.setText("" + precio);
+        }else if (sel_material==1 && sel_dije==1 && sel_tipo_dije==3){
             precio=80; resultado.setText("" + precio);
         }
 
+    }
+
+    public void limpiar(View v){
+        resultado.setText("");
+        combo_material.setSelection(0);
+        combo_dije.setSelection(0);
+        combo_tipo_dije.setSelection(0);
     }
 }

@@ -2,7 +2,6 @@
 <resources>
     <string name="app_name">AppManillas</string>
     <string name="titulo">YOUR BRACELET</string>
-    <string name="precio">Price</string>
     <string name="boton_calcular">Calculate</string>
     <string name="boton_limpiar">Clear</string>
     <string name="opcion_material_cuero">Leather</string>
@@ -10,7 +9,6 @@
     <string name="opcion_dije_martillo">Hammer</string>
     <string name="opcion_dije_ancla">Anchor</string>
     <string name="opcion_tipo_dije_oro">Gold</string>
-    <string name="opcion_tipo_dije_bano_oro">Gold Plated</string>
     <string name="opcion_tipo_dije_oro_rosado">Pink Gold</string>
     <string name="opcion_tipo_dije_plata">Silver</string>
     <string name="opcion_tipo_dije_niquel">Nickel</string>
