@@ -39,8 +39,11 @@
         <item>@string/moneda_peso</item>
     </string-array>
 
-    <string name="precio"></string>
+    <string name="precio" translatable="false"></string>
 
     <string name="boton_calcular">Calcular</string>
     <string name="boton_limpiar">Limpiar</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="preUnitario">P. Unitario</string>
+    <string name="vlrtotal">V. Total</string>
 </resources>
