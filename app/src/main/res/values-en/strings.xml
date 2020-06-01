@@ -17,4 +17,6 @@
     <string name="cantidad">Quantity</string>
     <string name="preUnitario">Unit Price</string>
     <string name="vlrtotal">Total Value</string>
+    <string name="error_cantidad">" Please enter the number of bracelet to buy"</string>
+    <string name="error_cantidad_cero">Zero is not a valid number for purchases</string>
 </resources>

@@ -46,4 +46,7 @@
     <string name="cantidad">Cantidad</string>
     <string name="preUnitario">P. Unitario</string>
     <string name="vlrtotal">V. Total</string>
+
+    <string name="error_cantidad">Por favor digite la cantidad de manillas a comprar</string>
+    <string name="error_cantidad_cero">Cero no es un numero valido para comprar</string>
 </resources>
