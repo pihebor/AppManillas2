@@ -49,4 +49,7 @@
 
     <string name="error_cantidad">Por favor digite la cantidad de manillas a comprar</string>
     <string name="error_cantidad_cero">Cero no es un numero valido para comprar</string>
+    <string name="lbl_material">Seleccione el Material</string>
+    <string name="lbl_dije">Seleccione el Dije</string>
+    <string name="lbl_tipo_dije">Seleccione el Tipo de Dije</string>
 </resources>

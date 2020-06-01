@@ -16,15 +16,39 @@
         android:textSize="24sp"
         android:textStyle="bold" />
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_material"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
     <Spinner
         android:id="@+id/cmbMaterial"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_dije"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
     <Spinner
         android:id="@+id/cmbDije"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_tipo_dije"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <Spinner
         android:id="@+id/cmbTipoDije"
@@ -38,7 +62,7 @@
 
         <TextView
             android:id="@+id/lblUnitario"
-            android:layout_width="wrap_content"
+            android:layout_width="48dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_horizontal"
@@ -48,7 +72,7 @@
 
         <TextView
             android:id="@+id/lblCantidad"
-            android:layout_width="wrap_content"
+            android:layout_width="3dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_horizontal"
@@ -75,14 +99,14 @@
 
         <TextView
             android:id="@+id/lblPrecioUni"
-            android:layout_width="92dp"
+            android:layout_width="56dp"
             android:layout_height="33dp"
             android:layout_weight="1"
             android:gravity="center_horizontal" />
 
         <EditText
             android:id="@+id/txtCantidad"
-            android:layout_width="75dp"
+            android:layout_width="5dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
@@ -91,7 +115,7 @@
 
         <TextView
             android:id="@+id/lblPrecio"
-            android:layout_width="68dp"
+            android:layout_width="80dp"
             android:layout_height="35dp"
             android:layout_weight="1"
             android:gravity="center_horizontal"

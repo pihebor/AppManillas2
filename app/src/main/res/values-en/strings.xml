@@ -19,4 +19,7 @@
     <string name="vlrtotal">Total Value</string>
     <string name="error_cantidad">" Please enter the number of bracelet to buy"</string>
     <string name="error_cantidad_cero">Zero is not a valid number for purchases</string>
+    <string name="lbl_material">Select material</string>
+    <string name="lbl_dije">Select the charm</string>
+    <string name="lbl_tipo_dije">Select the type of charm</string>
 </resources>
